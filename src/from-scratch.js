@@ -9,11 +9,14 @@ const loop5to10 = () => {
     console.log(i)
   }
 };
-loop5to10()
+//loop5to10()
 // you do NOT need an if check
 const loopEvenNumbersUpTo10 = () => {
+  for (let i = 0; i < 10; i += 2) {
+    console.log(i)
+  }
 };
-
+loopEvenNumbersUpTo10()
 const countdown5to0 = () => {
 };
 
