@@ -1,11 +1,9 @@
 const whileToFor = () => {
-  let i = 0;
-  while (i < 5) {
-    console.log(i);
-    i++;
+  for (let i = 0; i < 5; i++) {
+    console.log(i)
   }
 };
-
+whileToFor()
 const continueGuardClause = () => {
   for (let i = 1; i < 5; i++) {
     if (!(i === 2) && !(i === 3)) {
