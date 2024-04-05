@@ -44,7 +44,7 @@ const fizzbuzz = () => {
     }
   }
 };
-fizzbuzz()
+//fizzbuzz()
 
 module.exports = {
   loop0UpTo10,
