@@ -4,6 +4,7 @@ const whileToFor = () => {
   }
 };
 //whileToFor()
+/** FEEDBACK: This works but since it could be one or the other and the action in the code block is the same, you can use the OR operator to look for both within one conditional statement! */
 const continueGuardClause = () => {
   for (let i = 1; i < 5; i++) {
     if (i === 2) {

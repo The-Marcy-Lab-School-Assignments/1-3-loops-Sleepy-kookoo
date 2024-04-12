@@ -1,3 +1,4 @@
+/** FEEDBACK: Perfect! Make sure to remove any commented out code.  */
 const loop0UpTo10 = () => {
   for (let i = 0; i < 10; i++) {
     console.log(i)
